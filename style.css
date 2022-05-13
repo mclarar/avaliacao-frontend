@@ -1,0 +1,363 @@
+ body{
+  margin: 0;
+  box-sizing: border-box;
+}
+.containerHeader {
+  display: flex;
+  
+  width: 100%;
+  height: 5rem;
+  font-family: 'DM Sans', sans-serif;
+   background-color: #8d4545;
+}
+
+
+.leftSide{
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  width: 50%;
+  
+  
+}
+
+.logo-header img{
+  width: 55px;
+  height: 55px;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  
+}
+
+
+.rightSide{
+  display: flex;
+  align-items:center;            
+  width: 50%;
+
+  justify-content: flex-end;
+}
+
+.rightSide ul{
+  list-style: none;
+}
+.rightSide li{
+  display: inline;
+  padding: 1rem;
+  font-size: 1.2rem;
+}
+
+.icons{
+  display: flex;
+  float: right;
+  gap: 0.3rem;
+  height: 1.8rem;
+  background-color: #ffffff;
+}
+.container-top{
+  width: 80%;
+  
+  margin: auto;
+  text-align: center;
+  font-family: 'DM Sans', sans-serif;
+  text-align: center;
+}
+
+.container-top h1{
+  font-size: 4rem;
+}
+
+.container-top p{
+  font-size: 1.5rem;
+}
+
+.top-right{
+  display: flex;
+  justify-content: center;
+  
+  height:15rem;
+  width: 20%;
+  gap: 1rem;
+  
+  }
+
+  .top-right img{
+    width: 17.5rem;
+    height: 17.5rem;
+    border-radius: 20%;
+    margin-top: auto;
+  }
+
+ 
+  h2{
+    
+    font-family: 'DM Sans', sans-serif;
+    text-align: center;
+    font-size: 2rem;
+  }
+
+.conteudo{
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 2rem;
+  
+ 
+}
+a{
+  font-size: 1.2rem;
+  font-family: 'DM Sans', sans-serif;
+ }
+a{
+  text-decoration: none;
+  color: crimson;
+}
+a:hover{
+  color: #460b0b;
+}
+.caixa{
+  width: 22vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  box-shadow: 0 0 1em #e4e3e0;
+  border: #e8e2e2 solid 1px;
+
+  
+}
+
+.caixa img{
+  width: 300px;
+  height: 150px;
+  margin: auto;
+  margin-top: 0.5rem;
+  border-radius: 10%;
+}
+  
+.link{
+  text-align: center;
+  margin-top: 1rem;
+}
+
+button{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  background-color: #460b0b;
+  
+}
+
+button:hover{
+  background-color: #d24550;
+}
+button a{
+  
+  color: #e4e3e0;
+}
+
+.sobre{
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  background-color: #ffffff;
+}
+
+
+.picture{
+  display: flex;
+  width: 25%;
+  height: 15rem;
+  margin-left: 5rem;
+  background-color: #ffffff;
+}
+
+.picture img{
+  width: 14rem;
+    height: 14rem;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.about-me{
+  font-family: 'DM Sans', sans-serif;
+    width: 50rem;
+    font-size: 1.2rem;
+    
+}
+
+.about-me p{
+  
+  text-align: justify;
+}
+
+.container-questionario{
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+
+.text-newsletter{
+  width: 55%;
+  margin: auto;
+  display: flex;
+
+  justify-content: center;
+  background-color: #ffffff;
+
+}
+
+.text-newsletter p{
+  text-align: center;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 2rem;
+}
+
+
+form{
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+  font-family: 'DM Sans', sans-serif;
+  width: 42vw;
+  
+  font-family: 'DM Sans', sans-serif;
+  background-color: #ffffff;
+  border: 1px dashed #3333;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  
+  border: #e8e2e2 solid 1px;
+  box-shadow: 0 0 1em #e4e3e0;
+
+}
+
+.form-inside{
+  display: flex;
+  flex-direction: column;
+  
+  width: 38vw;
+ 
+  gap: 2rem;
+  
+}
+
+
+.form-inside #input-nome{
+  width: 38vw;
+  height: 8vh;
+  border-radius: 4%;
+  
+}
+
+#input-email{
+  width: 38vw;
+  height: 8vh;
+  
+}
+
+.checkbox{
+  display: flex;
+  align-items: center;
+  width: 91%;
+  margin-bottom: 1rem;
+  
+  
+}
+
+
+.checkbox input {
+  margin-right: 0.3rem;
+}
+
+#botao{
+  width: 15vw;
+  height: 7vh;
+  margin-top: 2rem;
+  background-color: #d24550;
+  color: #ffffff;
+  font: 'DM Sans', sans-serif;
+  
+}
+
+#botao:hover {
+  background: #87212b;
+  
+}
+
+
+
+.container-footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #622222;
+}
+.information{
+  width: 50%;
+
+}
+
+h3{
+  font-family: 'DM Sans', sans-serif;
+  font-size: 1.5rem;
+  margin: auto;
+ 
+}
+
+.information p{
+  font-family: 'DM Sans', sans-serif;
+  margin: auto;
+  font-size: 1.5rem;
+}
+
+.icons-2{
+  width: 15%;
+ 
+  display: flex;
+  justify-content: flex-end;
+}
+
+.icons-2 img{
+  margin: auto;
+  width: 2rem;
+  
+  
+}
+
+@media (max-width: 600px) {
+
+
+h1{
+  font-size: 1rem;
+}
+  .conteudo, .caixa, .sobre{
+    
+    flex-direction: column;
+    
+    flex-wrap: nowrap;
+    width: 80%;
+    justify-content: center;
+  }
+
+
+ 
+ 
+    
+  /* }
+   img{
+    width: 30rem;
+    height: 35rem;
+   } */
+
+}
